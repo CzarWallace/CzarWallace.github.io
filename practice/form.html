@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image" href="favicon (1).ico">
+</head>
+
+<body>
+    <h1>Student Admission Form</h1>
+    <form action="backend.php">
+        <label for="studentName">Name</label>
+        <div> <input type="text" name="" id="studentName" value="" placeholder="Enter your name"> </div>
+        <br>
+        <div>DOB:<input type="date" name="dob" id="DOB"> </div>
+        <br>
+        <div>contact Number:<input type="number" name="contact" id="contactName" placeholder="Contact number"> </div>
+        <br>
+        <div>
+            Email: <input type="email" name="email" id="email" placeholder="Enter your email address">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="gender" id="male"> Female<input type="radio" name="gender"
+                id="female">
+        </div>
+        <br>
+        <div>
+            upload your image<input type="file" name="file" id="upload" accept="image/*">
+        </div>
+        <br>
+        <div>Residential Address: <br> <textarea name="address" id="address" cols="30" rows="10"></textarea> </div>
+        <br>
+
+        <div>
+            Web dev:<select name="option" id="webDev">
+                <option value="Frontend"> Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="" selected>Fulstack</option>
+            </select>
+        </div>
+        <br>
+
+        <div>You accept terms and condition? <input type="checkbox" name="checkbox" id="terms" checked></div>
+
+        <br> <br>
+        <button type="submit">Submit Form</button>
+        <br><br>
+        <!-- Use button element for Reset -->
+        <button type="reset">Reset Form</button>
+
+
+
+
+    </form>
+</body>
+
+</html>
